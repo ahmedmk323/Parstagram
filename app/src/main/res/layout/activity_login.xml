@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".LoginActivity">
+
+  <ImageView
+      android:id="@+id/iv_logo"
+      android:layout_width="300dp"
+      android:layout_height="100dp"
+      android:layout_centerHorizontal="true"
+      android:layout_above="@id/et_username"
+      android:src="@drawable/instagram_logo_wordmark_logotype"/>
+
+  <EditText
+      android:id="@+id/et_username"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="Username"
+      android:textAlignment="center"/>
+
+  <EditText
+      android:id="@+id/et_password"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@id/et_username"
+      android:layout_marginBottom="10dp"
+      android:ems="10"
+      android:inputType="textPassword"
+      android:hint="Password"
+      android:textAlignment="center"/>
+
+  <Button
+      android:id="@+id/btn_login"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@id/et_password"
+      android:layout_alignStart="@id/et_password"
+      android:layout_alignEnd="@id/et_password"
+      android:text="Login"
+      />
+
+  <Button
+      android:id="@+id/btn_signup"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tv_or"
+      android:layout_alignStart="@id/btn_login"
+      android:layout_alignEnd="@id/btn_login"
+      android:layout_centerHorizontal="true"
+
+      android:text="Create account" />
+
+  <TextView
+      android:id="@+id/tv_or"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/btn_login"
+      android:layout_centerHorizontal="true"
+      android:text="-or-" />
+
+
+</RelativeLayout>
