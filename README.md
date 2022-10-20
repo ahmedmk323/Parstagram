@@ -27,7 +27,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='/walkthrough1.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+<img src='/walkthrough1.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> <br><br><br>
+
+The current signed in user is persisted across app restarts
+
+<img src='/persistent.gif' title='Persistent' width='250' alt='Persistent' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
