@@ -34,6 +34,11 @@ class Post: ParseObject() {
     fun setUser(user: ParseUser){
         put(KEY_USER,user)
     }
+
+    // time parameter is "created_at" data from a single post
+    fun getFormattedTimeStamp(time: String): String? {
+        return TimeFormatter.getTimeDifference(time)
+    }
     companion object {
         const val KEY_DESCRIPTION = "description"
         const val KEY_IMAGE = "image"

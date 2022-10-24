@@ -13,7 +13,7 @@
       android:layout_height="100dp"
       android:layout_centerHorizontal="true"
       android:layout_above="@id/et_username"
-      android:src="@drawable/instagram_logo_wordmark_logotype"/>
+      android:src="@drawable/instagram_logo_wordmark_logotype" />
 
   <EditText
       android:id="@+id/et_username"
@@ -47,6 +47,7 @@
       android:layout_alignStart="@id/et_password"
       android:layout_alignEnd="@id/et_password"
       android:text="Login"
+      android:backgroundTint="@color/lightBlue"
       />
 
   <Button
@@ -57,7 +58,7 @@
       android:layout_alignStart="@id/btn_login"
       android:layout_alignEnd="@id/btn_login"
       android:layout_centerHorizontal="true"
-
+      android:backgroundTint="@color/lightGreen"
       android:text="Create account" />
 
   <TextView
